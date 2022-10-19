@@ -1,0 +1,16 @@
+package br.com.fiap.resource;
+
+import javax.ws.rs.Path;
+import javax.ws.rs.core.Response;
+
+import br.com.fiap.to.UsuarioTO;
+
+@Path("/login")
+public class UsuarioResource {
+	
+	@POST
+	public Response loginUsuario(UsuarioTO usuario) {
+		
+	}
+	
+}
